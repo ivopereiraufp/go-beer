@@ -1,0 +1,12 @@
+name: "Revive"
+on: ["push", "pull_request"]
+
+jobs:
+  revive:
+    name: "Run Revive"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+        with:
+          fetch-depth: 1
+      - uses: morphy2k/revive-action@v2.4.1
