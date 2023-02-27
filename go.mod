@@ -1,4 +1,4 @@
-module github.com/nikkixdev/beer-testing
+module github.com/ivopereiraufp/go-beer
 
 go 1.13
 
